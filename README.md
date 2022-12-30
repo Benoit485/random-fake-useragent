@@ -1,5 +1,16 @@
 # random-fake-useragent
 
+
+This fork for update cheerio to last version (^1.0.0-rc.12) because before version have high vulnerabilities
+
+For use inside node package.json :
+
+```
+"dependencies": {
+    "random-fake-useragent": "git+https://github.com/Benoit485/random-fake-useragent.git#0.1.1"
+}
+```
+
 [![npm version](https://badge.fury.io/js/random-fake-useragent.svg)](https://badge.fury.io/js/random-fake-useragent)
 [![Dependency Status](https://david-dm.org/koppthe/random-fake-useragent.svg)](https://david-dm.org/koppthe/random-fake-useragent)
 [![devDependency Status](https://david-dm.org/koppthe/random-fake-useragent/dev-status.svg)](https://david-dm.org/koppthe/random-fake-useragent#info=devDependencies)
